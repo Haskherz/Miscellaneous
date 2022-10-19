@@ -1,0 +1,13 @@
+Python:
+
+from ast import While
+#creado por HaskHertz
+
+nombres = []
+while True:
+    nombre =input("añada un nombre")
+    if nombre == "":
+        break
+    nombres.append(nombre)
+    
+print(nombres)
